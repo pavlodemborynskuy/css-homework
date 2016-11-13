@@ -1,0 +1,110 @@
+html {
+	background-image: url(img/seigaiha.png);
+	background-repeat: repeat;
+}
+
+body {
+	background-image: url(img/BA_new_icon.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header {
+	font-family: sans-serif;
+	font-size: 40px;
+	color: #333;
+	text-align: center;
+}
+
+
+.header_small {
+	font-family: sans-serif;
+	font-size: 20px;
+	color: #ccc;
+	font-style: italic;
+}
+
+.info {
+	font-family: sans-serif;
+	font-size: 16px;
+	color: #888;
+	font-weight: bold;
+}
+
+.list_content {
+	font-family: sans-serif;
+	text-align: center;
+	list-style: none;
+}
+
+.list_link {
+	text-decoration: none;
+	font-size: 30px;
+	font-variant: small-caps;
+}
+
+.list_link:hover {
+	color: #333;
+}
+
+.list_section:hover {
+	background-color: #eee;
+	list-style-image: url(img/short_arrow_right-512.png);
+}
+
+.list_section:active {
+	text-decoration: overline;	
+}
+
+
+:visited {
+color: #a9a;
+}
+
+.header_2 {
+	font-family: cursive;
+	font-size: 35px;
+	text-align: justify;
+}
+
+.content {
+	font-family: cursive;
+	text-indent: 40px;
+	font-size: 18px;
+	color: #222;
+	font-weight: bold;
+}
+
+.content:first-letter {
+	color:  #ea3;
+	font-size: 36px;
+}
+
+.content:first-line {
+	color: #a83;
+	font-size: 27px;
+}
+
+.content_table {
+	font-family: Verdana , sans-serif;
+	font-size: 18px;
+}
+
+.head_table {
+ background: #666;
+ color: white;
+}
+
+.line_table:hover {
+	background: #ccc;
+}
+
+.ltable {
+
+}
+
+.summary {
+	background: #a83;
+	color: white;
+}
